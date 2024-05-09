@@ -1,0 +1,332 @@
+[
+    {
+        "champion": "Nautilus",
+        "win": "42",
+        "loose": "29",
+        "kda": "3.32"
+    },
+    {
+        "champion": "Tahm Kench",
+        "win": "39",
+        "loose": "31",
+        "kda": "6.88"
+    },
+    {
+        "champion": "Thresh",
+        "win": "35",
+        "loose": "24",
+        "kda": "6.59"
+    },
+    {
+        "champion": "Nami",
+        "win": "34",
+        "loose": "26",
+        "kda": "11.19"
+    },
+    {
+        "champion": "Leona",
+        "win": "32",
+        "loose": "20",
+        "kda": "2.87"
+    },
+    {
+        "champion": "Rakan",
+        "win": "29",
+        "loose": "16",
+        "kda": "4.04"
+    },
+    {
+        "champion": "Lulu",
+        "win": "26",
+        "loose": "13",
+        "kda": "4.67"
+    },
+    {
+        "champion": "Braum",
+        "win": "21",
+        "loose": "14",
+        "kda": "3.67"
+    },
+    {
+        "champion": "Renata Glasc",
+        "win": "20",
+        "loose": "17",
+        "kda": "7.03"
+    },
+    {
+        "champion": "Alistar",
+        "win": "19",
+        "loose": "11",
+        "kda": "3.16"
+    },
+    {
+        "champion": "Yuumi",
+        "win": "18",
+        "loose": "14",
+        "kda": "10.53"
+    },
+    {
+        "champion": "Rell",
+        "win": "17",
+        "loose": "6",
+        "kda": "2.07"
+    },
+    {
+        "champion": "Ashe",
+        "win": "12",
+        "loose": "10",
+        "kda": "6.94"
+    },
+    {
+        "champion": "Karma",
+        "win": "11",
+        "loose": "6",
+        "kda": "3.17"
+    },
+    {
+        "champion": "Lux",
+        "win": "10",
+        "loose": "8",
+        "kda": "6.94"
+    },
+    {
+        "champion": "Gragas",
+        "win": "9",
+        "loose": "7",
+        "kda": "2.88"
+    },
+    {
+        "champion": "Pyke",
+        "win": "9",
+        "loose": "7",
+        "kda": "3.44"
+    },
+    {
+        "champion": "Milio",
+        "win": "8",
+        "loose": "6",
+        "kda": "8.33"
+    },
+    {
+        "champion": "Bard",
+        "win": "8",
+        "loose": "5",
+        "kda": "3.11"
+    },
+    {
+        "champion": "Zilean",
+        "win": "7",
+        "loose": "5",
+        "kda": "7"
+    },
+    {
+        "champion": "Neeko",
+        "win": "6",
+        "loose": "6",
+        "kda": "6.33"
+    },
+    {
+        "champion": "Galio",
+        "win": "6",
+        "loose": "3",
+        "kda": "2.94"
+    },
+    {
+        "champion": "Trundle",
+        "win": "5",
+        "loose": "3",
+        "kda": "2.69"
+    },
+    {
+        "champion": "Blitzcrank",
+        "win": "5",
+        "loose": "2",
+        "kda": "2.07"
+    },
+    {
+        "champion": "Caitlyn",
+        "win": "4",
+        "loose": "4",
+        "kda": "4.08"
+    },
+    {
+        "champion": "Kalista",
+        "win": "4",
+        "loose": "4",
+        "kda": "7.25"
+    },
+    {
+        "champion": "Rumble",
+        "win": "4",
+        "loose": "3",
+        "kda": "2.5"
+    },
+    {
+        "champion": "Maokai",
+        "win": "3",
+        "loose": "3",
+        "kda": "3.73"
+    },
+    {
+        "champion": "Ornn",
+        "win": "3",
+        "loose": "3",
+        "kda": "9.67"
+    },
+    {
+        "champion": "Morgana",
+        "win": "3",
+        "loose": "2",
+        "kda": "3.78"
+    },
+    {
+        "champion": "Sejuani",
+        "win": "3",
+        "loose": "2",
+        "kda": "3.67"
+    },
+    {
+        "champion": "Senna",
+        "win": "3",
+        "loose": "2",
+        "kda": "5.2"
+    },
+    {
+        "champion": "Amumu",
+        "win": "3",
+        "loose": "1",
+        "kda": "1.67"
+    },
+    {
+        "champion": "Soraka",
+        "win": "3",
+        "loose": "1",
+        "kda": "5.2"
+    },
+    {
+        "champion": "Jhin",
+        "win": "2",
+        "loose": "2",
+        "kda": "13"
+    },
+    {
+        "champion": "Camille",
+        "win": "2",
+        "loose": "1",
+        "kda": "1.57"
+    },
+    {
+        "champion": "Lee Sin",
+        "win": "2",
+        "loose": "1",
+        "kda": "5.4"
+    },
+    {
+        "champion": "Seraphine",
+        "win": "2",
+        "loose": "1",
+        "kda": "4.5"
+    },
+    {
+        "champion": "Sett",
+        "win": "2",
+        "loose": "1",
+        "kda": "2.75"
+    },
+    {
+        "champion": "Sion",
+        "win": "2",
+        "loose": "1",
+        "kda": "2"
+    },
+    {
+        "champion": "Pantheon",
+        "win": "2",
+        "loose": "0",
+        "kda": "2.11"
+    },
+    {
+        "champion": "Annie",
+        "win": "1",
+        "loose": "1",
+        "kda": "13"
+    },
+    {
+        "champion": "Ezreal",
+        "win": "1",
+        "loose": "1",
+        "kda": "9"
+    },
+    {
+        "champion": "Heimerdinger",
+        "win": "1",
+        "loose": "1",
+        "kda": "4.5"
+    },
+    {
+        "champion": "Hwei",
+        "win": "1",
+        "loose": "1",
+        "kda": "5.5"
+    },
+    {
+        "champion": "Varus",
+        "win": "1",
+        "loose": "1",
+        "kda": "2.5"
+    },
+    {
+        "champion": "Wukong",
+        "win": "1",
+        "loose": "1",
+        "kda": "4"
+    },
+    {
+        "champion": "Yasuo",
+        "win": "1",
+        "loose": "1",
+        "kda": "10"
+    },
+    {
+        "champion": "Zac",
+        "win": "1",
+        "loose": "1",
+        "kda": "8"
+    },
+    {
+        "champion": "Zyra",
+        "win": "1",
+        "loose": "1",
+        "kda": "3"
+    },
+    {
+        "champion": "Poppy",
+        "win": "1",
+        "loose": "0",
+        "kda": "1.75"
+    },
+    {
+        "champion": "Shen",
+        "win": "1",
+        "loose": "0",
+        "kda": "2"
+    },
+    {
+        "champion": "Sona",
+        "win": "1",
+        "loose": "0",
+        "kda": "3.25"
+    },
+    {
+        "champion": "Taric",
+        "win": "1",
+        "loose": "0",
+        "kda": "2.25"
+    },
+    {
+        "champion": "Twitch",
+        "win": "1",
+        "loose": "0",
+        "kda": "1"
+    }
+]
