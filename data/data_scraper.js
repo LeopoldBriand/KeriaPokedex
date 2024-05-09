@@ -33,6 +33,7 @@ async function fetchData() {
                 infos.push(info)
             }
         }
+        // Need to replace Wukon and renata names
         fs.writeFileSync('../client/public/data.json', JSON.stringify(infos));
     } catch (error) {
         console.error('Error fetching data:', error);
