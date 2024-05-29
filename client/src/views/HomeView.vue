@@ -24,7 +24,7 @@ import { defineComponent } from 'vue';
 import ChampionCard from '@/components/ChampionCard.vue';
 import SearchBar from '@/components/SearchBar.vue';
 import axios from 'axios';
-import { KeriaData, ChampionData } from '@/types';
+import type { KeriaData, ChampionData } from '@/types';
 
 export default defineComponent({
   name: 'HomeView',
@@ -42,7 +42,8 @@ export default defineComponent({
   async mounted() {
     // Fetch all champion data
     this.champions = (await axios.get('https://ddragon.leagueoflegends.com/cdn/14.9.1/data/en_GB/champion.json')).data.data;
-    this.pokedex = await(await fetch('/data.json')).json();
+    let response = await fetch('/KeriaPokedex/data.json')
+    this.pokedex = await response.json();
   },
 })
 </script>

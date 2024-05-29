@@ -3,8 +3,8 @@
     font-style: normal;
     font-display: auto;
     src: local("Spiegel"),
-        url("../../public/fonts/Spiegel/Spiegel-Regular.ttf") format("truetype"),
-        url("../../public/fonts/Spiegel/Spiegel-Regular.otf") format("opentype");
+        url("/fonts/Spiegel/Spiegel-Regular.ttf") format("truetype"),
+        url("/fonts/Spiegel/Spiegel-Regular.otf") format("opentype");
   }
 
 @font-face {
@@ -12,7 +12,7 @@
     font-style: normal;
     font-display: auto;
     src: local("Beaufort"),
-        url("../../public/fonts/Beaufort/BeaufortforLOL-Regular.ttf") format("truetype");
+        url("/fonts/Beaufort/BeaufortforLOL-Regular.ttf") format("truetype");
 }
 
 :root {
