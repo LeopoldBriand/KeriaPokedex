@@ -4,9 +4,10 @@
       <img src="/logo_keria_pokedex.png" alt="">
       <h1 class="title">ERIA POKEDEX</h1>
     </div>
+    <div><SearchBar :champions="pokedex" @filterChampions="(filtered) => filteredChampions = filtered"/></div>
     <div class="cards">
       <ChampionCard 
-        v-for="(card, index) in pokedex" 
+        v-for="(card, index) in filteredChampions" 
         class="card"
         :key="index" 
         :info="card" 
@@ -21,18 +22,21 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import ChampionCard from '@/components/ChampionCard.vue';
+import SearchBar from '@/components/SearchBar.vue';
 import axios from 'axios';
 import { KeriaData, ChampionData } from '@/types';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    ChampionCard
+    ChampionCard,
+    SearchBar
   },
   data() {
     return {
       champions: {} as ChampionData,
-      pokedex: [] as KeriaData[]
+      pokedex: [] as KeriaData[],
+      filteredChampions: [] as KeriaData[]
     }
   },
   async mounted() {
