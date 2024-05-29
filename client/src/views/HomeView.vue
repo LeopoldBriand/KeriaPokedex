@@ -7,6 +7,7 @@
     <div class="cards">
       <ChampionCard 
         v-for="(card, index) in pokedex" 
+        class="card"
         :key="index" 
         :info="card" 
         :img="champions[card.champion.replace(/\s/g, '') as keyof typeof champions]?.image.full"
@@ -44,8 +45,8 @@ export default defineComponent({
 
 <style scoped>
 .home {
-  padding-left: 150px;
-  padding-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .header {
   font-family: 'Beaufort';
@@ -62,7 +63,40 @@ export default defineComponent({
 .cards {
   font-family: 'Beaufort';
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
+.card {
+  width: 150px;
+}
+@media screen and (min-width: 700px) {
+  .cards {
+    font-family: 'Beaufort';
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .cards {
+    font-family: 'Beaufort';
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .cards {
+    font-family: 'Beaufort';
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+
+  }
+  .selected-column {
+    grid-column: 7;
+    margin-right: 0;
+  }
+}
+
 </style>
