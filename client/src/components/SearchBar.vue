@@ -9,7 +9,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Fuse from 'fuse.js'
-import { KeriaData } from '@/types';
+import type { KeriaData } from '@/types';
 
 export default defineComponent({
     name: 'SearchBar',
