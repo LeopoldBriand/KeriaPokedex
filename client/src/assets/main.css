@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Spiegel";
+    font-style: normal;
+    font-display: auto;
+    src: local("Spiegel"),
+        url("../../public/fonts/Spiegel/Spiegel-Regular.ttf") format("truetype"),
+        url("../../public/fonts/Spiegel/Spiegel-Regular.otf") format("opentype");
+  }
+
+@font-face {
+    font-family: "Beaufort";
+    font-style: normal;
+    font-display: auto;
+    src: local("Beaufort"),
+        url("../../public/fonts/Beaufort/BeaufortforLOL-Regular.ttf") format("truetype");
+}
+
+:root {
+    --gold-color: #C89B3C;
+    --dark-blue-color: #091428;
+    --white-color: #F0E6D2;
+  }

@@ -3,7 +3,7 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img :src="`https://ddragon.leagueoflegends.com/cdn/14.9.1/img/champion/${img}`" :alt="info?.champion" style="width:200px;height:200px;">
+          <img :src="`https://ddragon.leagueoflegends.com/cdn/14.9.1/img/champion/${img}`" :alt="info?.champion" style="width:150px;height:150px;">
         </div>
         <div class="flip-card-back">
           <h1>{{ info?.champion }}</h1>
@@ -26,7 +26,7 @@ export default defineComponent({
     index: {type: Number, required: true}
   },
   computed: {
-    gridStyles() {
+    gridStyles(): object {
       return {
         'grid-column': this.index % 5,
         'grid-row': Math.floor(this.index/5)
@@ -39,8 +39,8 @@ export default defineComponent({
 <style scoped>
 .flip-card {
   background-color: transparent;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 0px;
   perspective: 1000px;
 }
@@ -63,12 +63,19 @@ export default defineComponent({
   backface-visibility: hidden;
 }
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #F0E6D2;
   color: black;
 }
 .flip-card-back {
   background-color: transparent;
-  color: white;
   transform: rotateY(180deg);
+}
+h1, p {
+  color: var(--gold-color);
+  text-shadow: 1px 1px 2px black, 0 0 25px var(--dark-blue-color), 0 0 5px var(--dark-blue-color);
+  white-space: nowrap;
+}
+h1 {
+  font-size:calc(10px + 0.8vw);
 }
 </style>
