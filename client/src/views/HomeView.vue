@@ -10,8 +10,7 @@
         v-for="(card, index) in filteredChampions" 
         class="card"
         :key="index" 
-        :info="card" 
-        :img="champions[card.champion.replace(/\s/g, '') as keyof typeof champions]?.image.full"
+        :info="card"
         :index="index"
       </ChampionCard>
     </div>
@@ -23,8 +22,7 @@
 import { defineComponent } from 'vue';
 import ChampionCard from '@/components/ChampionCard.vue';
 import SearchBar from '@/components/SearchBar.vue';
-import axios from 'axios';
-import type { KeriaData, ChampionData } from '@/types';
+import type { KeriaData } from '@/types';
 
 export default defineComponent({
   name: 'HomeView',
@@ -34,14 +32,12 @@ export default defineComponent({
   },
   data() {
     return {
-      champions: {} as ChampionData,
       pokedex: [] as KeriaData[],
       filteredChampions: [] as KeriaData[]
     }
   },
   async mounted() {
     // Fetch all champion data
-    this.champions = (await axios.get('https://ddragon.leagueoflegends.com/cdn/14.9.1/data/en_GB/champion.json')).data.data;
     let response = await fetch('/KeriaPokedex/data.json')
     this.pokedex = await response.json();
   },
