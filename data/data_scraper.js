@@ -16,7 +16,7 @@ async function fetchData() {
         let infos = [];
         for (const [key, value] of Object.entries(rows)) {
             if(Number(key) || key == '0') {
-                let info = {champion: null, win: null, loose: null, kda: null}
+                let info = {champion: null, win: null, loose: null, kda: null, img: null}
                 let datas = value.children.map(el => {
                     if (el.attribs && el.attribs.class && el.attribs.class == 'spstats-subject') {
                         return el.children[0].children[1].children[0].data
@@ -30,6 +30,7 @@ async function fetchData() {
                 info.win = datas[1];
                 info.loose = datas[2];
                 info.kda = datas[8];
+                info.img = `${datas[0]}.png` 
                 infos.push(info)
             }
         }

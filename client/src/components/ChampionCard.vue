@@ -3,7 +3,7 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img :src="`https://ddragon.leagueoflegends.com/cdn/14.9.1/img/champion/${img}`" :alt="info?.champion" style="width:150px;height:150px;">
+          <img :src="`/KeriaPokedex/images/champions/${info.img}`.replace(/\s/g, '')" :alt="info?.champion" style="width:150px;height:150px;">
         </div>
         <div class="flip-card-back">
           <h1>{{ info?.champion }}</h1>
@@ -21,8 +21,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'ChampionCard',
   props: {
-    info: Object,
-    img: String,
+    info: {type: Object, required: true},
     index: {type: Number, required: true}
   },
   computed: {
