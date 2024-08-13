@@ -6,6 +6,7 @@
           <img :src="`/KeriaPokedex/images/champions/${info.img}`.replace(/\s/g, '')" :alt="info?.champion" style="width:150px;height:150px;">
         </div>
         <div class="flip-card-back">
+          <img :src="`/KeriaPokedex/images/champions/${info.img}`.replace(/\s/g, '')" :alt="info?.champion" class="flip-card-back-image" style="width:150px;height:150px;">
           <h1>{{ info?.champion }}</h1>
           <p>Win: {{ info?.win }}, Loose: {{ info?.loose }}</p>
           <p>KDA: {{ info?.kda }}</p>
@@ -68,6 +69,15 @@ export default defineComponent({
 .flip-card-back {
   background-color: transparent;
   transform: rotateY(180deg);
+}
+
+.flip-card-back-image {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 h1, p {
   color: var(--gold-color);
