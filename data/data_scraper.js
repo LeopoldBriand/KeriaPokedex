@@ -26,7 +26,7 @@ async function fetchData() {
                         return el.children[0].data
                     }
                 })
-                info.champion = datas[0];
+                info.champion = fixName(datas[0]);
                 info.win = datas[1];
                 info.loose = datas[2];
                 info.kda = datas[8];
@@ -34,10 +34,21 @@ async function fetchData() {
                 infos.push(info)
             }
         }
-        // Need to replace Wukon and renata names
         fs.writeFileSync('../client/public/data.json', JSON.stringify(infos));
     } catch (error) {
         console.error('Error fetching data:', error);
+    }
+}
+
+// Need to replace Wukon and Renata names because of translations ?
+function fixName(name) {
+    switch (name) {
+        case 'Renata':
+            return 'Renata Glasc'
+        case 'Monkey King':
+            return 'Wukong'
+        default:
+            return name
     }
 }
 
