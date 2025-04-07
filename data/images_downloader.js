@@ -4,7 +4,6 @@ const client = require('https');
 
 async function downloadImages() {
     champions = (await axios.get('https://ddragon.leagueoflegends.com/cdn/14.9.1/data/en_GB/champion.json')).data.data;
-    console.log(champions)
     for (let name in champions) {
         if (champions[name].image) {
             await downloadImage(
@@ -13,6 +12,7 @@ async function downloadImages() {
             )
         }
     }
+    console.log("Download done")
 }
 
 async function downloadImage(url, filepath) {

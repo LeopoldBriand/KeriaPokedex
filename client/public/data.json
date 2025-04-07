@@ -2,9 +2,16 @@
     {
         "champion": "Nautilus",
         "win": "50",
-        "loose": "32",
-        "kda": "3.23",
+        "loose": "31",
+        "kda": "3.12",
         "img": "Nautilus.png"
+    },
+    {
+        "champion": "Leona",
+        "win": "46",
+        "loose": "26",
+        "kda": "2.56",
+        "img": "Leona.png"
     },
     {
         "champion": "Tahm Kench",
@@ -14,11 +21,11 @@
         "img": "Tahm Kench.png"
     },
     {
-        "champion": "Leona",
+        "champion": "Rakan",
         "win": "39",
-        "loose": "22",
-        "kda": "2.56",
-        "img": "Leona.png"
+        "loose": "23",
+        "kda": "4.33",
+        "img": "Rakan.png"
     },
     {
         "champion": "Thresh",
@@ -28,6 +35,13 @@
         "img": "Thresh.png"
     },
     {
+        "champion": "Renata Glasc",
+        "win": "34",
+        "loose": "28",
+        "kda": "7.9",
+        "img": "Renata Glasc.png"
+    },
+    {
         "champion": "Nami",
         "win": "34",
         "loose": "26",
@@ -35,46 +49,32 @@
         "img": "Nami.png"
     },
     {
-        "champion": "Rakan",
-        "win": "34",
-        "loose": "19",
-        "kda": "4.09",
-        "img": "Rakan.png"
-    },
-    {
-        "champion": "Renata Glasc",
-        "win": "27",
-        "loose": "22",
-        "kda": "7.55",
-        "img": "Renata Glasc.png"
+        "champion": "Alistar",
+        "win": "33",
+        "loose": "20",
+        "kda": "3.52",
+        "img": "Alistar.png"
     },
     {
         "champion": "Braum",
-        "win": "27",
+        "win": "31",
         "loose": "19",
-        "kda": "3.91",
+        "kda": "3.31",
         "img": "Braum.png"
     },
     {
         "champion": "Lulu",
-        "win": "27",
-        "loose": "13",
-        "kda": "4.78",
+        "win": "29",
+        "loose": "15",
+        "kda": "5.04",
         "img": "Lulu.png"
     },
     {
         "champion": "Rell",
-        "win": "26",
+        "win": "27",
         "loose": "11",
-        "kda": "2.18",
+        "kda": "2.1",
         "img": "Rell.png"
-    },
-    {
-        "champion": "Alistar",
-        "win": "24",
-        "loose": "14",
-        "kda": "3.48",
-        "img": "Alistar.png"
     },
     {
         "champion": "Yuumi",
@@ -84,6 +84,13 @@
         "img": "Yuumi.png"
     },
     {
+        "champion": "Bard",
+        "win": "18",
+        "loose": "11",
+        "kda": "4.33",
+        "img": "Bard.png"
+    },
+    {
         "champion": "Ashe",
         "win": "15",
         "loose": "13",
@@ -91,11 +98,18 @@
         "img": "Ashe.png"
     },
     {
-        "champion": "Bard",
-        "win": "13",
+        "champion": "Karma",
+        "win": "14",
         "loose": "8",
-        "kda": "3.9",
-        "img": "Bard.png"
+        "kda": "3.46",
+        "img": "Karma.png"
+    },
+    {
+        "champion": "Pyke",
+        "win": "13",
+        "loose": "10",
+        "kda": "3.41",
+        "img": "Pyke.png"
     },
     {
         "champion": "Lux",
@@ -105,11 +119,11 @@
         "img": "Lux.png"
     },
     {
-        "champion": "Karma",
-        "win": "12",
-        "loose": "7",
-        "kda": "3.41",
-        "img": "Karma.png"
+        "champion": "Neeko",
+        "win": "9",
+        "loose": "8",
+        "kda": "6.65",
+        "img": "Neeko.png"
     },
     {
         "champion": "Gragas",
@@ -119,11 +133,11 @@
         "img": "Gragas.png"
     },
     {
-        "champion": "Pyke",
+        "champion": "Poppy",
         "win": "9",
-        "loose": "7",
-        "kda": "3.44",
-        "img": "Pyke.png"
+        "loose": "6",
+        "kda": "3.68",
+        "img": "Poppy.png"
     },
     {
         "champion": "Ornn",
@@ -133,25 +147,11 @@
         "img": "Ornn.png"
     },
     {
-        "champion": "Neeko",
-        "win": "8",
-        "loose": "7",
-        "kda": "6.06",
-        "img": "Neeko.png"
-    },
-    {
         "champion": "Milio",
         "win": "8",
         "loose": "6",
         "kda": "8.33",
         "img": "Milio.png"
-    },
-    {
-        "champion": "Zilean",
-        "win": "7",
-        "loose": "5",
-        "kda": "7",
-        "img": "Zilean.png"
     },
     {
         "champion": "Kalista",
@@ -189,6 +189,20 @@
         "img": "Blitzcrank.png"
     },
     {
+        "champion": "Soraka",
+        "win": "5",
+        "loose": "2",
+        "kda": "5.63",
+        "img": "Soraka.png"
+    },
+    {
+        "champion": "Zilean",
+        "win": "5",
+        "loose": "2",
+        "kda": "4.88",
+        "img": "Zilean.png"
+    },
+    {
         "champion": "Caitlyn",
         "win": "4",
         "loose": "4",
@@ -215,13 +229,6 @@
         "loose": "2",
         "kda": "2.9",
         "img": "Sejuani.png"
-    },
-    {
-        "champion": "Soraka",
-        "win": "4",
-        "loose": "2",
-        "kda": "6.8",
-        "img": "Soraka.png"
     },
     {
         "champion": "Morgana",
@@ -259,6 +266,13 @@
         "img": "Seraphine.png"
     },
     {
+        "champion": "Elise",
+        "win": "2",
+        "loose": "2",
+        "kda": "5",
+        "img": "Elise.png"
+    },
+    {
         "champion": "Jhin",
         "win": "2",
         "loose": "2",
@@ -285,6 +299,13 @@
         "loose": "0",
         "kda": "2.11",
         "img": "Pantheon.png"
+    },
+    {
+        "champion": "Shen",
+        "win": "2",
+        "loose": "0",
+        "kda": "1.88",
+        "img": "Shen.png"
     },
     {
         "champion": "Annie",
@@ -350,18 +371,11 @@
         "img": "Zyra.png"
     },
     {
-        "champion": "Poppy",
+        "champion": "LeBlanc",
         "win": "1",
         "loose": "0",
-        "kda": "1.75",
-        "img": "Poppy.png"
-    },
-    {
-        "champion": "Shen",
-        "win": "1",
-        "loose": "0",
-        "kda": "2",
-        "img": "Shen.png"
+        "kda": "0.75",
+        "img": "LeBlanc.png"
     },
     {
         "champion": "Sona",
