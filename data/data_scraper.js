@@ -47,6 +47,8 @@ function fixName(name) {
             return 'Renata Glasc'
         case 'Monkey King':
             return 'Wukong'
+        case 'LeBlanc':
+            return 'Le Blanc'
         default:
             return name
     }
